@@ -14,10 +14,10 @@
           uses: actions/checkout@v3
 
         - name: Set up Git
-          run: git config --global user.name 'Your Name' && git config --global user.email 'your-email@example.com'
+          run: git config --global user.name 'Cqcretador' && git config --global user.email 'cqcretador@gmail.com'
 
         - name: Add Hugging Face remote
-          run: git remote add hf https://huggingface.co/spaces/your-username/your-space-name
+          run: git remote add hf https://huggingface.co/spaces/Cqcretador/ia
 
         - name: Push to Hugging Face
           run: git push hf main
